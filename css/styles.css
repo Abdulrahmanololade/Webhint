@@ -1,0 +1,186 @@
+.navbar li{
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: brown;
+    margin: 0;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    margin: 15px;
+}
+
+#hero{
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    top: 0;
+    left: 0;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+#hero a{
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    padding: 10px 25px;
+    border-radius: 15px;
+
+}
+#hero a:hover{
+    text-decoration: none;
+    color: brown;
+    background-color: #fff;
+    padding: 7px 20px;
+     
+}
+
+#hero p{
+    margin-bottom: 30px;
+}
+
+#hero_about{
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_contact{
+    background-image: url(../images/img3.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_services{
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#hero_blog{
+    background-image: url(../images/img5.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+     /* customer review styling*/
+        .customer_review .container{
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .review{
+            width: calc(33.33% -20px);
+            background-color: brown;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        
+        .reviewer{
+            display: flex;
+            align-items: center;
+        
+        }
+        
+        .reviewer img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .comment{
+            font-style: italic;
+        }
+
+        .customer_review h3{ 
+            text-align: center;
+            font-size: 30px;
+            margin: 30px 0;
+        }
+
+        .about{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .about .box img{
+            width: 700px;
+            height: 700px;
+        }
+        .about .box{
+            margin: 10px;
+        }
+        
+.blog_post .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.post{
+    width: calc(33.33% -20px);
+    padding: 20px;
+    margin: 30px 10px 30px 10px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.post img{
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.blog_post h4{
+    font-size: 30px;
+    text-align: center;
+}
